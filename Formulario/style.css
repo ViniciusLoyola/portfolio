@@ -1,0 +1,63 @@
+
+
+section {
+    background-color: black;
+    border-radius: 5%;
+    width: 60%;
+    margin: auto;
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#description {
+    margin-bottom: 5%;
+}
+
+div {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.label-design {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15%;
+    background-color: darkred;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+
+}
+
+input, select {
+    margin: 10px;
+    text-align: center;
+}
+
+span {
+    color: grey;
+    font-size: smaller;
+}
+
+textarea {
+    margin: 2%;
+    min-width: 30px;
+    min-height: 40px;
+}
+
+button {
+    width: 100%;
+    padding: 4%;
+    border-radius: 10%;
+    font-size: 1.5vw;
+    background-color: green;
+    font-weight: 800;
+}

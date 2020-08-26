@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+
+
+        <h1 id="title">Survey Form
+
+        </h1>
+        <p id="description"> Let us know you better!
+
+        </p>
+
+        <form action="" id="survey-form">
+
+            <div class="label-design">
+
+                <label for="name" id="name-label" class="label-design">Name<input name="name" id="name"  type="text" placeholder="Enter your name" required ></label>
+
+            </div>
+
+            <div class="label-design">
+
+                <label id="email-label" for="email" class="label-design">Email<input id="email" name="email" type="email" placeholder="Enter your best email" required> </label>
+
+            </div>
+
+            <div class="label-design">
+
+                <label id="number-label" for="number" class="label-design"> Age<input id="number"  name="number" type="number" placeholder="Age" min="13" max="100" required> </label> 
+            
+            </div>
+
+            <div class="label-design">
+
+            
+
+                <label for="dropdown" id="dropdown-label" class="label-design">What's your role?
+                    <select id="dropdown" name="role" required>
+                        <option disabled value="" selected> Select your choice</option>
+                        <option value="student">Student</option>
+                        <option value="employee">Employed</option>
+                        <option value="boss">Boss</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>
+
+            </div>
+
+            <div class="label-design">
+                <p>What you like most?</p>
+
+                <label> <input name="user-recommend" type="radio" value="swin" checked>Swin</label>
+                <label><input name="user-recommend" type="radio" value="bike">Ride a bike</label>
+                <label><input name="user-recommend" type="radio" value="run">Run</label>
+                <labe><input name="user-recommend" type="radio" value="other">Other</label>
+
+            </div>
+
+            <div class="label-design">
+                <p>What you would like to improve in your life?
+                    <span>(Check all that apply)</span>
+                </p>
+
+                <label for="professional"><input type="checkbox" name="prefer" id="professional" value="professional">Professional part</label>
+                <label for="love"><input type="checkbox" name="prefer" id="love" value="love">Love issues</label>
+                <label for="friendship"><input type="checkbox" name="prefer" id="friendship" value="friendship">Friendship</label>
+                <label for="family"><input type="checkbox" name="prefer" id="family" value="family">Family circle</label>
+                <label for="intelectual"><input type="checkbox" name="prefer" id="intelectual" value="intelectual">Intelectual development</label>
+                <label for="other"><input type="checkbox" name="prefer" id="other" value="other">Other</label>
+            </div>
+
+            <div class="label-design">
+                <p>Any comments? Put them bellow: </p>
+                <textarea name="comment" id="comments" cols="30" rows="15" placeholder="Enter your comment here..."></textarea>
+
+
+
+            </div>
+
+            <div>
+                <button id="submit" type="submit">Submit</button>
+            </div>
+
+
+
+        </form>
+    </section>
+    
+</body>
+</html>
